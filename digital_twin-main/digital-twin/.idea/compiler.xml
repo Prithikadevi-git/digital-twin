@@ -1,0 +1,19 @@
+java -jar target\digital-twin-backend-1.0.0.jar --spring.datasource.password=root<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToCon tentRoot value="true" />
+        <module name="digital-twin-backend" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="digital-twin-backend" options="-parameters" />
+    </option>
+  </component>
+</project> 
